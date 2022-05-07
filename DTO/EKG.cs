@@ -9,11 +9,14 @@ namespace DTO
         public double MeasurementPeriod { get; set; }
         public Patient patient { get; set; }
 
-        public EKG(List<double> ekgSamples, double measurementPeriod, Patient patient)
+        public DateTime MeasurementTime{ get; set; }
+
+        public EKG(List<double> ekgSamples, double measurementPeriod, Patient patient, DateTime measurementTime)
         {
             EKGsamples = ekgSamples;
             MeasurementPeriod = measurementPeriod;
             this.patient = patient;
+            MeasurementTime = measurementTime;
         }
     }
 }
