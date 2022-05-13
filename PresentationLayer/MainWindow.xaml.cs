@@ -40,7 +40,7 @@ namespace PresentationLayer
         {
             Hide();
             findPatientW.ShowDialog();
-            //den følgende kode er blot for at teste vore loginvindue. Vi skal senere ændre det til, at patienten er blevet fundet i tabellen.
+            //den følgende kode er blot for at teste vores loginvindue. Vi skal senere ændre det til, at patienten er blevet fundet i tabellen.
             if (PatientOK == true)
             {
                 Show();
